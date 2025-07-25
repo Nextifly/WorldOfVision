@@ -1,0 +1,17 @@
+@import 'tailwindcss';
+
+.containers {
+	padding: 0 40px;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Opera */
+}
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE и Edge */
+  scrollbar-width: none; /* Firefox */
+}
+@media (max-width: 930px) {
+	.containers {
+		padding: 0 16px;
+	}
+}
