@@ -55,7 +55,7 @@ cd frontend
 npm install
 npm run dev
 #or
-yarn add
+yarn add .
 yarn dev
 ```
 
